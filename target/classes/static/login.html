@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+    <div id="app">
+        <label>用户名</label>
+        <input v-model="name",placeholder="请输入用户名：">
+        <br>
+        <label>密码     </label>
+        <input v-model="password",placeholder="请输入密码：">
+    </div>
+
+
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                name:'',
+                password:''
+
+            },
+        })
+    </script>
+</body>
+</html>
